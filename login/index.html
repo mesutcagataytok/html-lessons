@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <!-- language alanı belirlenir -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta> Etiketi: Bu etiket, HTML belgesinin meta verilerini tanımlar. Meta veriler, tarayıcıya sayfanın nasıl görüntülenmesi gerektiği gibi ek bilgiler sağlar. -->
+
+    <!-- content="width=device-width, initial-scale=1.0": Bu öznitelik, viewport için aşağıdaki ayarları belirtir:
+    width=device-width: Viewport genişliğini cihazın genişliğine ayarlar. Bu, web sayfasının genişliğinin cihazın ekran genişliği ile aynı olmasını sağlar.
+    initial-scale=1.0: Sayfa ilk yüklendiğinde başlangıç ölçeğini belirler. 1.0 değeri, sayfanın varsayılan zoom seviyesinde (tam olarak boyutlandırılmış) görüntülenmesini sağlar. -->
+    <title>Giriş Sayfası</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="asset/image/cagatay.jpg" alt="Profil resmi" class="profile-photo">
+        <h2>Kullanıcı Giriş Ekranı</h2>
+        <form>
+            <div class="input-group">
+                <label for="username">Kullanıcı Adı</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Şifre</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">Giriş Yap</button>
+        </form>
+    </div>
+</body>
+</html>
